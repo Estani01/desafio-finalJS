@@ -1,10 +1,10 @@
 // funciones para crear las tarjetas trayendo los productos con fetch desde un json
-function crearTarjetasBoca(){
+function crearTarjetasGibson(){
     inicio.innerHTML = ("");
     tarjetas.innerHTML = ("");
     tarjetas.className = "tarjetas"
     contenedorInicio.remove(container);
-    fetch("./data/data-bocajrs.json")
+    fetch("./data/data-gibson.json")
     .then(resp =>resp.json())
     .then(productos => {
             productos.forEach(producto => {
@@ -34,12 +34,12 @@ function crearTarjetasBoca(){
         
     }).catch(error => alert(`${error} No se pudo descargar la informacion. `));
 };
-function crearTarjetasRiver(){
+function crearTarjetasFender(){
     inicio.innerHTML = ("");
     tarjetas.innerHTML = ("");
     tarjetas.className = "tarjetas";
     contenedorInicio.remove(container);
-    fetch("./data/data-riverp.json")
+    fetch("./data/data-fender.json")
     .then(resp =>resp.json())
     .then(productos => {
             productos.forEach(producto => {
@@ -69,12 +69,12 @@ function crearTarjetasRiver(){
         
     }).catch(error => alert(`${error} No se pudo descargar la informacion. `));
 };
-function crearTarjetasArg(){
+function crearTarjetasEpiphone(){
     inicio.innerHTML = ("");
     tarjetas.innerHTML = ("");
     tarjetas.className = "tarjetas";
     contenedorInicio.remove(container);
-    fetch("./data/data-arg.json")
+    fetch("./data/data-epiphone.json")
     .then(resp =>resp.json())
     .then(productos => {
             productos.forEach(producto => {
@@ -105,12 +105,12 @@ function crearTarjetasArg(){
     }).catch(error => alert(`${error} No se pudo descargar la informacion. `));
 };
     
-function crearTarjetasRestAmerica(){
+function crearTarjetasMartin(){
     inicio.innerHTML = ("");
     tarjetas.innerHTML = ("");
     tarjetas.className = "tarjetas"
     contenedorInicio.remove(container);
-    fetch("./data/data-america.json")
+    fetch("./data/data-martin.json")
     .then(resp =>resp.json())
     .then(productos => {
             productos.forEach(producto => {
@@ -141,12 +141,12 @@ function crearTarjetasRestAmerica(){
     }).catch(error => alert(`${error} No se pudo descargar la informacion. `));
 };
 
-function crearTarjetasRestEuropa(){
+function crearTarjetasTaylor(){
     inicio.innerHTML = ("");
     tarjetas.innerHTML = ("");
     tarjetas.className = "tarjetas"
     contenedorInicio.remove(container);
-    fetch("./data/data-europa.json")
+    fetch("./data/data-taylor.json")
     .then(resp =>resp.json())
     .then(productos => {
             productos.forEach(producto => {
@@ -216,24 +216,24 @@ function defaultIndex () {
 
 
 // botonera
-let clickBoca = document.getElementById("escudoboca").addEventListener("click", crearTarjetasBoca);
-let clickArg = document.getElementById("escudoarg").addEventListener("click", crearTarjetasArg);
-let clickRiver = document.getElementById("escudoriver").addEventListener("click", crearTarjetasRiver);
-let clickAmerica = document.getElementById("escudoamerica").addEventListener("click", crearTarjetasRestAmerica);
-let clickEuropa = document.getElementById("escudoeuropa").addEventListener("click", crearTarjetasRestEuropa);
+let clickGibson = document.getElementById("gibson").addEventListener("click", crearTarjetasGibson);
+let clickEpiphone = document.getElementById("epiphone").addEventListener("click", crearTarjetasEpiphone);
+let clickFender = document.getElementById("fender").addEventListener("click", crearTarjetasFender);
+let clickMartin = document.getElementById("martin").addEventListener("click", crearTarjetasMartin);
+let clickTaylor = document.getElementById("taylor").addEventListener("click", crearTarjetasTaylor);
 let clickHome = document.getElementById("botonHome");
 // condicional para cuando se apretan los distintos botones
 
-if (clickBoca) {
-    crearTarjetasBoca();
-}else if (clickArg){
-    crearTarjetasArg();
-}else if (clickRiver){
-    crearTarjetasRiver();
-}else if(clickAmerica){
-    crearTarjetasRestAmerica();
-}else if(clickEuropa){
-    crearTarjetasRestEuropa
+if (clickGibson) {
+    crearTarjetasGibson();
+}else if (clickEpiphone){
+    crearTarjetasEpiphone();
+}else if (clickFender){
+    crearTarjetasFender();
+}else if(clickMartin){
+    crearTarjetasMartin();
+}else if(clickTaylor){
+    crearTarjetasTaylor();
 }else if(clickHome){
     defaultIndex();
 }else{
