@@ -1,0 +1,7 @@
+[
+    {"id": 1, "idImagen":5,"nombre": "Epiphone les paul standard", "precio": 1000, "img":  "../Multimedia/epiphone/lp-1.webp", "img2": "../Multimedia/epiphone/lp-2.webp"},
+    {"id": 2, "idImagen":6, "nombre": "Epiphone les paul standard custom", "precio": 1200, "img":    "../Multimedia/epiphone/lpc-1.webp", "img2": "../Multimedia/epiphone/lpc-2.jpg"},
+    {"id": 3, "idImagen":7, "nombre": "Epiphone fly v", "precio": 800, "img":   "../Multimedia/epiphone/v-1.webp", "img2": "../Multimedia/epiphone/v-2.jpg"},
+    {"id": 4, "idImagen":8, "nombre": "Epiphone pr acustic", "precio": 3300, "img":  "../Multimedia/epiphone/pr-1.webp", "img2":"../Multimedia/epiphone/pr-2.jpg"}
+    
+]

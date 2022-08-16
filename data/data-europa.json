@@ -1,0 +1,8 @@
+[
+    {"id": 1, "idImagen":8, "nombre": "TAYLOR 414", "precio": 7000, "img": "../Multimedia/taylor/414-1.webp", "img2": "../Multimedia/taylor/414-2.webp"},
+    {"id": 2, "idImagen":9, "nombre": "Taylor 224", "precio": 4500, "img": "../Multimedia/taylor/224-1.webp", "img2":"../Multimedia/taylor/224-2.webp"},
+    {"id": 3, "idImagen":10, "nombre": "TAYLOR 724", "precio": 6300, "img": "../Multimedia/taylor/724-1.webp", "img2":"../Multimedia/taylor/724-2.webp"},
+    {"id": 5, "idImagen":11, "nombre": "TAYLOR 214", "precio": 9000, "img": "../Multimedia/taylor/214-1.webp", "img2": "../Multimedia/taylor/214-2.webp"},
+    {"id": 6, "idImagen":12, "nombre": "TAYLOR MINI", "precio": 9000, "img": "../Multimedia/taylor/mini-1.webp", "img2": "../Multimedia/taylor/mini-2.webp"},
+    {"id": 7, "idImagen":13, "nombre": "TAYLOR AD22", "precio": 9000, "img": "../Multimedia/taylor/ad22-1.webp", "img2": "../Multimedia/taylor/add22-2.webp"}
+]

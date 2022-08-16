@@ -1,0 +1,6 @@
+[
+    {"id": 1, "idImagen":4, "nombre": "Fender stratocaster", "precio": 7000, "img": "../Multimedia/fender/strato1.jpg", "img2": "../Multimedia/fender/strato2.jpg"},
+    {"id": 2, "idImagen":5, "nombre": "Fender jaguar", "precio": 4500, "img": "../Multimedia/fender/jaguar1.webp", "img2": "../Multimedia/fender/jaguar2.jpg"},
+    {"id": 3, "idImagen":6, "nombre": "Fender telecaster", "precio": 6300, "img": "../Multimedia/fender/tele1.webp", "img2": "../Multimedia/fender/tele2.webp"}
+
+]

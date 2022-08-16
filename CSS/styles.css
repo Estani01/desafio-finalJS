@@ -1,0 +1,83 @@
+body {
+  background-color: #EBEBEB;
+  text-align: center; }
+
+.imagen-carousel {
+  height: 500px; }
+
+.padreitem {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas: "main aside"; }
+
+.carrito {
+  grid-area: aside; }
+
+.tarjetas {
+  grid-area: main;
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+
+.cartaCarrito {
+  margin: 70px;
+  display: flex;
+  flex-direction: column; }
+  .cartaCarrito .botoneraCarrito {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+
+.tarjetasInicio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.productos {
+  margin: 20px;
+  margin-left: 30px; }
+  .productos .card {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: transform .2s; }
+  .productos img {
+    width: 220px;
+    height: 270px; }
+
+.card:hover {
+  transform: scale(1.1); }
+
+#destacados {
+  display: inline-block;
+  position: relative;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 20px; }
+
+#destacados::after, #destacados::before {
+  content: '';
+  position: absolute;
+  width: 500px;
+  height: 3px;
+  background-color: black;
+  top: 1.4rem; }
+
+#destacados::before {
+  left: -510px; }
+
+#destacados::after {
+  right: -510px; }
+
+.mainfooter {
+  background-color: #EBEBEB; }
+  .mainfooter .pieDePagina .row {
+    list-style-type: none; }
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+  .footer-content .formulario {
+    text-align: center; }
+
+.redes {
+  text-align: right; }

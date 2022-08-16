@@ -1,0 +1,7 @@
+[
+    {"id": 1, "idImagen":6,"nombre": "martin d-28", "precio": 6000, "img": "../Multimedia/martin/d28-1.webp", "img2": "../Multimedia/martin/d28-2.webp"},
+    {"id": 2, "idImagen":7, "nombre": "martin dh-28", "precio": 6500, "img": "../Multimedia/martin/hd28-1.webp", "img2": "../Multimedia/martin/hd28-2.webp"},
+    {"id": 3, "idImagen":8, "nombre": "martin d-18", "precio": 8300, "img": "../Multimedia/martin/d-18.webp", "img2":  "../Multimedia/martin/d-182.webp"},
+    {"id": 4, "idImagen":9, "nombre": "martin gpc", "precio": 10100, "img":  "../Multimedia/martin/gpc1.webp", "img2":  "../Multimedia/martin/gpc2.webp"},
+    {"id": 5, "idImagen":10, "nombre": "martin rest", "precio": 4000, "img":  "../Multimedia/martin/rest1.webp", "img2":  "../Multimedia/martin/rest2.webp"}
+]

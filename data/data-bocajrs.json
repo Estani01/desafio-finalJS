@@ -1,0 +1,7 @@
+[
+    {"id": 1, "idImagen":6, "nombre": "Gibson Les paul standard", "precio": 17000, "img": "../Multimedia/gibson/lp1.webp", "img2": "../Multimedia/gibson/lp2.webp"},
+    {"id": 2, "idImagen":7, "nombre": "Gibson sg standard", "precio": 10000, "img": "../Multimedia/gibson/sg1.webp", "img2": "../Multimedia/gibson/sg2.webp"},
+    {"id": 3, "idImagen":8, "nombre": "Gibson explorer standard", "precio": 6300, "img": "../Multimedia/gibson/explorer1.webp", "img2":"../Multimedia/gibson/explorer2.webp"},
+    {"id": 4, "idImagen":9, "nombre": "Gibson 335", "precio": 7300, "img": "../Multimedia/gibson/3351.webp", "img2": "../Multimedia/gibson/3352.webp"},
+    {"id": 5, "idImagen":10, "nombre": "Gibson Jumbo-200", "precio": 9000, "img": "../Multimedia/gibson/jumbo1.webp", "img2": "../Multimedia/gibson/jumbo2.webp"}
+]
